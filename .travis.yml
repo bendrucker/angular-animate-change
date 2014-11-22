@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.10'
+deploy:
+  provider: npm
+  email: bvdrucker@gmail.com
+  api_key:
+    secure: Kh+wvsw2WQlfCmdbFaO7iuoKBAbBJh0yrXu+tXGZAXt40Nxp4eatA/ngCBujrZS4J9kBadJKjy9PQvZMOCZY2oxCOamDT9jA2O+1HvetqcTF3srqPQ+ZOyvxgKOAziGq/1rMbJJyuxm/buiRM/hT6/pzt9uqXziGlyyVlzjX06I=
+  on:
+    tags: true
+    all_branches: true
+    repo: bendrucker/angular-animate-change
