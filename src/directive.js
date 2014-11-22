@@ -8,7 +8,7 @@ module.exports = function ($animate) {
         if (newVal !== oldVal) {
           $animate.addClass(element, attributes.changeClass)
             .then(function () {
-              return $animate.removeClass(element, attributes.changeClass);
+              element.removeClass(attributes.changeClass);
             });
         }
       });
