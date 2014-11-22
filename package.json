@@ -1,6 +1,6 @@
 {
   "name": "angular-animate-change",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animate an element when a value changes",
   "main": "./src",
   "scripts": {
