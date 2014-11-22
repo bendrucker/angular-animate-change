@@ -20,16 +20,16 @@ describe('animate-change', function () {
       $scope.$evalAsync(fn);
     });
     $animate.addClass = sinon.stub().resolves();
-    $animate.removeClass = sinon.stub().resolves();
     element = $compile('<span animate-change="foo" change-class="on"></span>')($scope);
   }));
 
-  it('adds the animation class when the model changes', function () {
+  it('adds the toggles class when the model changes', function () {
     $scope.$digest();
+    sinon.stub(element, 'removeClass');
     $scope.foo = 'bar';
     $scope.$digest();
     expect($animate.addClass).to.have.been.calledWith(element, 'on');
-    expect($animate.removeClass).to.have.been.calledWith(element, 'on');
+    expect(element.removeClass).to.have.been.calledWith('on');
   });
 
   it('does not animate the initial value', function () {
