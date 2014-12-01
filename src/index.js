@@ -1,7 +1,6 @@
 'use strict';
 
-require('angular')
+module.exports = require('angular')
   .module('animate-change', [])
-  .directive('animateChange', require('./directive'));
-
-module.exports = 'animate-change';
+  .directive('animateChange', require('./directive'))
+  .name;
