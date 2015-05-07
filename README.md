@@ -21,7 +21,7 @@ angular.module('myApp', [
 ]);
 // otherwise, include the code first then the module name
 angular.module('myApp', [
-  'angular-animate-change'
+  'animate-change'
 ]);
 ```
 
