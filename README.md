@@ -1,4 +1,4 @@
-angular-animate-change [![Build Status](https://travis-ci.org/bendrucker/angular-animate-change.svg?branch=master)](https://travis-ci.org/bendrucker/angular-animate-change)
+angular-animate-change [![Build Status](https://travis-ci.org/bendrucker/angular-animate-change.svg?branch=master)](https://travis-ci.org/bendrucker/angular-animate-change) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/angular-animate-change.svg)](https://greenkeeper.io/)
 ======================
 
 Angular directive for applying an animation class to an element whenever a value changes. Useful for applying attention-calling animation like flashes or shakes.
